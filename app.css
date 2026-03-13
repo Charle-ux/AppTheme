@@ -55,5 +55,6 @@ a{
 }
 
 .header-section{
-    background-image: 100%;
+    background-image: url(images/ibrahim-rifath-3bHDoR7JUNc-unsplash.jpg);
+    background-size: cover
 }
