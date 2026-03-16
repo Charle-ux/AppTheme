@@ -86,8 +86,8 @@ a{
 
 .grid-container{
     display: grid;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
-    justify-items: center;
-    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
 }
