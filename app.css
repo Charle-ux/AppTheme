@@ -10,6 +10,7 @@ body{
 
 .container{
     margin: 0 auto;
+    width: 90%;
     max-width: 1200px;
 }
 
@@ -53,6 +54,19 @@ a{
     font-size: 30px;
 }
 
+.small-text{
+    text-align: center;
+    background-color: grey;
+}
+
+.text-1{
+    margin-bottom: 10px;
+}
+
+.text-2{
+    margin-bottom: 20px;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -79,10 +93,68 @@ a{
     /* background-color: black; */
     /* opacity: 100 ; */
     padding: 50px;
+    /* border-radius: 50px; */
+}
+
+.header-1{
+    font-size: 25px;
+}
+
+.header-2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.header-3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .main-text{
     text-align: center;
+}
+
+.footer-main-class{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-sub-class{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-header-text{
+    margin-bottom: 10px;
+}
+
+.footer-text{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-header-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-header-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-header-3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .grid-container{
