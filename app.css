@@ -14,6 +14,18 @@ body{
     max-width: 1200px;
 }
 
+.sub-container{
+    margin: 0 auto;
+    width: 60%;
+    max-width: 1200px;
+}
+
+.sub-container-1{
+    margin: 0 auto;
+    width: 55%;
+    max-width: 1200px;
+}
+
 h1,h2,h3{
     font-weight: 700;
     letter-spacing: -2px;
@@ -61,10 +73,16 @@ a{
 
 .text-1{
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .text-2{
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.style{
+    background-color: green;
 }
 
 .navbar{
@@ -100,22 +118,23 @@ a{
     font-size: 25px;
 }
 
-.header-2{
+.section{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
 }
 
-.header-3{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
+.header-size-h2{
+    font-size: 25px;
 }
 
 .main-text{
     text-align: center;
+}
+
+.footer{
+    /* background-color: black; */
 }
 
 .footer-main-class{
@@ -155,6 +174,14 @@ a{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.span-text-1{
+    color: green;
+}
+
+.span-text-2{
+    color: green;
 }
 
 .grid-container{
@@ -212,6 +239,10 @@ a{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.image{
+    max-width: 150px;
 }
 
 .img{
