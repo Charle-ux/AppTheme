@@ -43,7 +43,7 @@ h1,h2,h3{
 
 h1{
     color: #FFFFFF;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 h2{
@@ -58,11 +58,24 @@ p{
     font-size: 20px;
 }
 
-a{
-    font-size: 16px;
-    color: grey;
+.anchor{
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+a:hover,a:active{
+    color: #32a091;
+    text-decoration: underline;
+}
+
+/* a:visited{
+    color: #495057;
+} */
+
+.anchor-state{
+    text-decoration: none;
 }
 
 .paragraph{
@@ -72,12 +85,6 @@ a{
 
 .pop-text{
     color: #32a091;
-}
-
-.anchor{
-    text-transform: capitalize;
-    font-weight: 700;
-    font-size: 30px;
 }
 
 .small-text{
@@ -169,7 +176,7 @@ a{
     font-size: 25px;
     color: white;
     background-color: #495057;
-    /* padding-top: 20px 20px; */
+    padding: 15px 130px;
     width: 100vw;
     margin-left: calc(-50vw + 50%);
     display: flex;
