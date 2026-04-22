@@ -3,6 +3,10 @@
     padding: 0%;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 body{
     font-family:'poppins', sans-serif;
     font-weight: 400;
@@ -378,14 +382,6 @@ a:hover,a:active{
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.your-icon-class {
-    /* Turns a black PNG into #32a091 */
-    filter: invert(55%) sepia(16%) saturate(1915%) hue-rotate(127deg) brightness(90%) contrast(88%);
-    
-    /* Optional: helps the browser render the filter smoothly */
-    will-change: filter;
 }
 
 .image{
