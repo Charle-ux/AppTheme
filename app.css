@@ -62,10 +62,15 @@ p{
     font-size: 20px;
 }
 
+a{
+    font-weight: 500;
+    font-size: 20px;
+}
+
 .anchor{
     text-decoration: none;
     text-transform: capitalize;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 30px;
     display: inline-block;
 }
