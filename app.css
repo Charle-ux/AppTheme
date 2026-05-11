@@ -247,6 +247,7 @@ a:hover,a:active{
     display: flex;
     flex-direction: column;
     color: #FFFFFF;
+    font-size: 1.5rem;
 }
 
 .footer-header-text{
@@ -259,7 +260,6 @@ a:hover,a:active{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 2rem;
     color: #FFFFFF;
     background-color: #495057;
     width: 100vw;
@@ -268,11 +268,10 @@ a:hover,a:active{
 }
 
 .footer-container-class{
-    width: 80%;
      display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 5rem;
     color: #FFFFFF;
 }
 
@@ -339,7 +338,7 @@ a:hover,a:active{
     gap: 5rem;
     margin: 0 auto;
     margin-bottom: 3rem;
-    padding: 0 10rem ;
+    /* padding: 0 10rem ; */
 }
 
 .grid-container-1{
@@ -348,6 +347,7 @@ a:hover,a:active{
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 8rem;
 }
 
 .grid-container-2{
