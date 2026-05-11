@@ -308,6 +308,7 @@ a:hover,a:active{
 .form{
     text-align: center;
     color: #FFFFFF;
+     font-size: 1.5rem;
 }
 
 .form-container{

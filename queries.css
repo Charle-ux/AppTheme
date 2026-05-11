@@ -1,6 +1,149 @@
-/* 2XL - LARGE SCREENS : > 1536  */
-/* XL - LARGE LAPTOPS: 1280px - 1536px */
 /*  LG - SMALL LAPTOPS: 1024px - 1280px*/
+@media(max-width: 80rem) {
+    /* 1280px/16px = 80rem
+    80rem  x 16px = 1280px */
+    html{
+        font-size: 56.25%;
+        /* 9px / 16px = 56.25%  */
+    }
+}
+
 /*  MD - TABLETS: 768px - 1024px*/
-/*  SM - PHONE LANDSCAPE: 576px - 768px*/
-/* XS - PHONE IN PORTRAiT: < 576px */
+@media(max-width: 64rem) {
+    /* 1021px/16px = 64rem
+    64rem  x 16px = 1024px */
+    html{
+        font-size: 50%;
+        /* 8px / 16px = 50%  */
+    }
+
+     .footer-container-class{
+        gap: 3rem;
+    }
+}  
+
+/*  SM - PHONE LANDSCAPE: 576px - 820px*/
+@media(max-width: 51rem) {
+    /* 820px/16px = 51rem
+    51rem  x 16px = 816px */
+    html{
+        font-size: 43.75%;
+        /* 7px / 16px = 43.75%  */
+    }
+
+    .footer-container-class{
+        gap: 3rem;
+    }
+
+    .footer-text{
+        padding: 1.5rem 1.5rem;
+    }
+
+    .footer-section{
+       padding: 2rem 1rem;
+    }
+
+   .header-section{
+      padding: 2rem 1rem;
+        height: 45vh;
+   }
+
+   .grid-container{
+        column-gap: 2rem;
+        row-gap: 2rem;
+    }
+
+}
+
+
+@media(max-width: 43rem) {
+    /* 680px/16px = 43rem
+    43rem  x 16px = 688px */
+
+    .footer-container-class{
+        gap: 1rem;
+    }
+
+    .footer-text{
+        padding: 1.5rem 2rem;
+    }
+
+    .input{
+        width: 15rem;
+    }
+
+    .style{
+        height: auto;
+    }
+
+    .style-2{
+        height: auto;
+    }
+
+    .footer-section{
+       padding: 2rem 2.5rem;
+    }
+  .header-section{
+      padding: 2rem 2.5rem;
+      /* height: 45vh; */
+    }
+}
+
+
+
+/* XS - PHONE IN PORTRAiT: < 590px */
+@media( max-width:37rem){
+    /* 590px / 16px = 37rem
+    37rem x 16px = 592px */
+
+     html{
+        font-size: 37.5%;
+        /* 6px / 16px = 37.5%  */
+    }
+
+    .footer-container-class{
+        gap: 0.5rem;
+    }
+
+    .header-section{
+        height: 40vh;
+    }
+
+    .grid-container{
+        column-gap: 1rem;
+        row-gap: 1rem;
+    }
+
+}
+
+@media( max-width:22rem){
+    /* 350px / 16px = 22rem
+    22rem x 16px = 352px */
+
+     html{
+        font-size: 37.5%;
+        /* 6px / 16px = 37.5%  */
+    }
+
+    .footer-container-class{
+        gap: 0rem;
+    }
+
+    .header-section{
+        height: 35vh;
+    }
+
+    h3{
+    font-size: 2rem;
+    }
+
+    .grid-container{
+        column-gap: 0rem;
+        row-gap: 0rem;
+    }
+
+    .header-section{
+        padding: 0rem;
+    }
+
+}
