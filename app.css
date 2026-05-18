@@ -9,11 +9,12 @@
     other fontsize notation system includes 
     md(medium) l(large) xl(extra large) 2xl 3xl e.t.c */
 
+    --txt-sm: 1rem;
     --text-sm: 1.2rem;
     --text-base: 1.6rem;
     --text-paragraph: 2rem;
     --text-h5: 2.4rem;
-    --text-h4: 3.2rem;
+    --text-h4: 3rem;
     --text-h3: 4rem;
     --text-h2: 4.8rem;
     --text-h1: 6.2rem;
@@ -42,7 +43,6 @@
 
     --primary-tint: #ffffff;
     --primary-shade: #32a091;
-    --tertiary-Base:#495097;
     --grey-Shade:#212529;
     --White:#f4f4f4;
     --Black:#333333;
@@ -90,7 +90,7 @@ body{
 }
 
 h1,h2,h3{
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
     letter-spacing: var(--letter-spacing-tight);
     line-height: var(--line-height-tight);
 }
@@ -101,7 +101,7 @@ h1{
 }
 
 h2{
-    font-size: 3rem;
+    font-size: var(--text-h4);
 }
 
 h3{
@@ -109,19 +109,19 @@ h3{
 }
 
 p{
-    font-size: 2rem;
+    font-size: var(--text-paragraph);
 }
 
 a{
     font-weight: var(--font-weight-medium);
-    font-size: 2rem;
+    font-size:  var(--text-paragraph);
 }
 
 .anchor{
     text-decoration: none;
     text-transform: capitalize;
     font-weight: var(--font-weight-medium);
-    font-size: 3rem;
+    font-size: var(--text-h4);
     display: inline-block;
 }
 
@@ -140,7 +140,7 @@ a:hover,a:active{
 
 .paragraph{
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: var(--txt-sm);
 }
 
 .pop-text{
@@ -153,12 +153,12 @@ a:hover,a:active{
 }
 
 .text-1{
-    margin-bottom: 1rem;
+    margin-bottom: var(--txt-sm);
     text-align: center;
 }
 
 .text-2{
-    margin-bottom: 2rem;
+    margin-bottom: var(--text-paragraph);
     text-align: center;
 }
 
@@ -223,7 +223,7 @@ a:hover,a:active{
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: var(--txt-sm);
     background-color: rgba(0, 0, 0, 0.7);
     color: var(--primary-tint);
     padding: 2rem 4rem;
@@ -247,27 +247,27 @@ a:hover,a:active{
 
  .header-3{
     text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-top: var(--text-h4);
+    margin-bottom: var(--txt-sm);
  }
 
 .section{
     text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-size: 2rem;
+    margin-top: var(--txt-sm);
+    margin-bottom: var(--txt-sm);
+    font-size: var(--text-paragraph);
 }
 
 .header-size-h2{
     font-size: 2.5rem;
     text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-top: var(--text-h4);
+    margin-bottom: var(--txt-sm);
 }
 
 .main-text{
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: var(--text-h4);
 }
 
 .alignment{
@@ -275,7 +275,7 @@ a:hover,a:active{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap:  var(--txt-sm);
 }
 
 .footer-section{
@@ -301,7 +301,7 @@ a:hover,a:active{
 }
 
 .footer-header-text{
-    font-size: 3rem;
+    font-size: var(--text-h4);
     margin-bottom: 0.5rem;
     color: var(--White);
 }
@@ -332,19 +332,19 @@ a:hover,a:active{
 .footer-header-1{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: var(--txt-sm);
 }
 
 .footer-header-2{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap:  var(--txt-sm);
 }
 
 .footer-header-3{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: var(--txt-sm);
 }
 
 .span-text-1{
@@ -372,7 +372,7 @@ a:hover,a:active{
 .button-class{
     background-color: var(--Black);
     color:  var(--White);
-    margin-top: 1rem;
+    margin-top:  var(--txt-sm);
     padding: 1rem;
     border: none;
 }
@@ -380,7 +380,7 @@ a:hover,a:active{
 .input{
     width: 25rem;
     height: 1.5rem;
-    padding: 1rem;
+    padding:  var(--txt-sm);;
 }
 
 .grid-container{
@@ -388,7 +388,7 @@ a:hover,a:active{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5rem;
     margin: 0 auto;
-    margin-bottom: 3rem;
+    margin-bottom: var(--text-h4) ;
     /* padding: 0 10rem ; */
 }
 
