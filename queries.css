@@ -34,10 +34,10 @@
 @media(max-width: 51rem) {
     /* 820px/16px = 51rem
     51rem  x 16px = 816px */
-    html{
+    /* html{
         font-size: 43.75%;
         /* 7px / 16px = 43.75%  */
-    }
+    } */
 
     .footer-container-class{
         column-gap: 1.5rem;
@@ -59,6 +59,14 @@
    .grid-container{
         column-gap: 2rem;
         row-gap: 2rem;
+    }
+
+    .footer-text p{
+        font-size: 1.4rem;
+    }
+
+    .footer-text h3{
+        font-size: 1.8rem;
     }
 
 }
