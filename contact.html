@@ -15,11 +15,11 @@
        <nav class="navbar" >
          <a class="anchor" href="apptheme.html"><span class="pop-text" >App</span>Theme</a>
           <ul class="nav-bar-container" >
-             <a  class="anchor-state" href="apptheme.html">Home</a>
-             <a  class="anchor-state" href="about.html">About</a>
-             <a  class="anchor-state" href="services.html">Services</a>
-             <a  class="anchor-state current " href="contact.html">Contact</a>
-           </ul>
+            <li><a class="anchor-state current " href="apptheme.html">Home</a></li>
+            <li><a class="anchor-state" href="about.html">About</a></li>
+            <li> <a class="anchor-state" href="services.html">Services</a></li>
+            <li> <a class="anchor-state" href="contact.html">Contact</a></li>
+          </ul>
        </nav>
 
         <div>
@@ -28,25 +28,25 @@
           <p  class="paragraph" >Please use this form to contact us</p>
 
            <div class="form-container" >
-             <form action="" method="post"></form>
+             <form action="" method="post" class="main-form" >
+               <label for="title" class="form" >NAME</label>
+               <!-- <br> -->
+               <input type="text" name="user-name" id="title" required >
 
-             <label for="title" class="form" >NAME</label>
-             <!-- <br> -->
-             <input type="text" name="user-name" id="title" required >
+               <!-- <br> -->
 
-             <!-- <br> -->
+               <label for="mail" class="form" >E-MAIL</label>
+               <!-- <br> -->
+               <input type="email" name="user-email" id="mail" required >
+ 
+               <!-- <br> -->
 
-             <label for="mail" class="form" >E-MAIL</label>
-             <!-- <br> -->
-             <input type="email" name="user-email" id="mail" required >
-
-             <!-- <br> -->
-
-             <label for="text" class="form" >MESSAGE</label>
-             <!-- <br> -->
-             <textarea id="text" cols="30" rows="5" minlength="10" required ></textarea>
-             <!-- <br> -->
-             <button type="submit" class="button-class" >Submit</button>
+               <label for="text" class="form" >MESSAGE</label>
+               <!-- <br> -->
+               <textarea id="text" cols="30" rows="5" minlength="10" required ></textarea>
+               <!-- <br> -->
+               <button type="submit" class="button-class" >Submit</button>
+             </form>
            </div>
         </div>
 
