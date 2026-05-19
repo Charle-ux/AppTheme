@@ -373,14 +373,14 @@ a:hover,a:active{
     background-color: var(--Black);
     color:  var(--White);
     margin-top:  var(--txt-sm);
-    padding: 1rem;
+    padding: var(--txt-sm);
     border: none;
 }
 
 .input{
     width: 25rem;
     height: 1.5rem;
-    padding:  var(--txt-sm);;
+    padding:  var(--txt-sm);
 }
 
 .grid-container{

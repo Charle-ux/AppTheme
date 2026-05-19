@@ -20,6 +20,14 @@
      .footer-container-class{
         column-gap: 3rem;
     }
+
+    .style{
+        height: auto;
+    }
+
+    .style-2{
+        height: auto;
+    }
 }  
 
 /*  SM - PHONE LANDSCAPE: 576px - 820px*/
