@@ -398,6 +398,10 @@ a:hover,a:active{
     border: none;
 }
 
+.button-class:hover{
+    transform: scale(1.1, 1.1);
+}
+
 .input{
     width: 25rem;
     height: 1.5rem;
